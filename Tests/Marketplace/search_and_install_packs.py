@@ -398,7 +398,7 @@ def get_latest_version_from_bucket(pack_id: str, production_bucket: Bucket) -> s
     return pack_latest_version
 
 
-def get_pack_installation_request_data(pack_id: str, pack_version: str):
+def get_pack_installation_request_data(pack_id: str, pack_version: str) -> dict:
     """
     Returns the installation request data of a given pack and its version. The request must have the ID and Version.
 
